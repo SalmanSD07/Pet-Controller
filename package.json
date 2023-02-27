@@ -1,0 +1,35 @@
+{
+  "name": "cupouch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalmanSD0704/cupouch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalmanSD0704/cupouch/issues"
+  },
+  "homepage": "https://github.com/SalmanSD0704/cupouch#readme",
+  "dependencies": {
+    "api": "^4.5.1",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
